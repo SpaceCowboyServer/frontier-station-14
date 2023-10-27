@@ -21,3 +21,11 @@
   spawn: SheetPlastitanium1
   maxCount: 30
   itemSize: 1
+
+- type: stack
+  id: Plamirum
+  name: пламірум
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: plamirum}
+  spawn: SheetPlamirum1
+  maxCount: 30
+  itemSize: 1
