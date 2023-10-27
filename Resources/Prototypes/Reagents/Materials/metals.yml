@@ -30,3 +30,19 @@
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plasteel }
   color: "#696969" #Okay, this is epic
   price: 0.28 # 1-1 mix of plasma and steel.
+
+- type: material
+  id: Plastitanium
+  stackEntity: SheetPlastitanium1
+  name: materials-plastitanium
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plastitanium }
+  color: "#696969" 
+  price: 0.50
+
+- type: material
+  id: Plamirum
+  stackEntity: SheetPlamirum1
+  name: materials-plamirum
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plamirum }
+  color: "#6bdce2" 
+  price: 0.98

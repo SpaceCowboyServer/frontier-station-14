@@ -9,6 +9,8 @@ materials-steel = сталь
 materials-gold = золото
 materials-silver = срібло
 materials-plasteel = пласталь
+materials-plastitanium = пластитаніум
+materials-plamirum = пламірум
 
 # Other
 materials-biomass = біомаса

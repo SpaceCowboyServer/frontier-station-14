@@ -139,3 +139,56 @@
   completetime: 6.4
   materials:
     Meaterial: 200
+
+- type: latheRecipe
+  id: SheetPlasteel
+  result: SheetPlasteel1
+  applyMaterialDiscount: false
+  completetime: 2
+  materials:
+    Steel: 100
+    Plasma: 100
+
+- type: latheRecipe
+  id: SheetPlasteel30
+  result: SheetPlasteel
+  completetime: 2
+  materials:
+    Steel: 3000
+    Plasma: 3000
+
+- type: latheRecipe
+  id: SheetPlastitanium
+  result: SheetPlastitanium1
+  applyMaterialDiscount: false
+  completetime: 2
+  materials:
+    Steel: 150
+    Uranium: 100
+
+- type: latheRecipe
+  id: SheetPlastitanium30
+  result: SheetPlastitanium
+  completetime: 2
+  materials:
+    Steel: 4500
+    Uranium: 3000
+
+- type: latheRecipe
+  id: SheetPlamirum
+  result: SheetPlamirum1
+  applyMaterialDiscount: false
+  completetime: 2
+  materials:
+    Steel: 200
+    Plasma: 200
+    Uranium: 200
+
+- type: latheRecipe
+  id: SheetPlamirum30
+  result: SheetPlamirum
+  completetime: 2
+  materials:
+    Steel: 60000
+    Plasma: 60000
+    Uranium: 60000
