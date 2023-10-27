@@ -53,6 +53,15 @@
         amount: 3
 
 - type: entity
+  id: CrateMaterialPlastitanium
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: SheetPlastitanium
+        amount: 3
+
+- type: entity
   id: CrateMaterialPlasma
   parent: CratePlasma
   components:
