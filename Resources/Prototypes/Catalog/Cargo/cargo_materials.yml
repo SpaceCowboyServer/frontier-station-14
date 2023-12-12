@@ -39,6 +39,16 @@
   group: market
 
 - type: cargoProduct
+  id: MaterialPlastitanium
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: plastitanium_3
+  product: CrateMaterialPlastitanium
+  cost: 16000 # TODO: Lower the cost back when possible
+  category: Materials
+  group: market
+
+- type: cargoProduct
   id: MaterialTextiles
   icon:
     sprite: Objects/Materials/materials.rsi

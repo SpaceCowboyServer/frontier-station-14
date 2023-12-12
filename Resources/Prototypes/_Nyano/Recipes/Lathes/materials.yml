@@ -20,3 +20,15 @@
   materials:
     Steel: 100
     Plasma: 100
+
+- type: latheRecipe
+  id: SheetPlastitanium
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: plastitanium
+  result: SheetPlastitanium1
+  applyMaterialDiscount: false
+  completetime: 2
+  materials:
+    Steel: 150
+    Uranium: 100

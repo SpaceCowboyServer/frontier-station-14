@@ -869,6 +869,9 @@
       canEjectStoredMaterials: false
       staticRecipes:
         - SheetSteel30
+        - SheetPlasteel30
+        - SheetPlastitanium30
+        - SheetPlamirum30
         - SheetGlass30
         - SheetRGlass30
         - SheetPlasma30
