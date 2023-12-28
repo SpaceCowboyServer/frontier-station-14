@@ -293,3 +293,4 @@
       - id: MedkitAdvancedFilled
       - id: HandheldCrewMonitor
       - id: Flash
+      - id: WeaponDisabler

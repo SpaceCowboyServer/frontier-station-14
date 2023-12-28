@@ -183,8 +183,8 @@
         - id: SpeedLoaderMagnumRubber
 
 - type: entity
-  id: ClothingBeltSecurityWebbingBlueshieldFilled
-  parent: ClothingBeltSecurityWebbing
+  id: ClothingBeltSecurityBlueshieldFilled
+  parent: ClothingBeltSecurity
   suffix: Filled
   components:
   - type: StorageFill
