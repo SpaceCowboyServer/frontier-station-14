@@ -27,6 +27,15 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBlueshield
+  name: blueshield satchel
+  description: сумка яка допоможе тобі запам'ятати число Пі.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelAtmospherics
   name: атмосферний портфель
   description: Міцний ранець із вогнестійких волокон. Пахне плазмою.

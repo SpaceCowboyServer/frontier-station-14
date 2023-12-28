@@ -1026,6 +1026,21 @@
 
 - type: entity
   parent: BasePDA
+  id: BlueshieldPDA
+  name: blueshield PDA
+  description: Коштує дорожче ніж ви, сер.
+  components:
+  - type: Pda
+    id: BlueshieldIDCard
+    state: pda-blueshield
+  - type: PdaBorderColor
+    borderColor: "#004281"
+    accentHColor: "#001932"
+  - type: Icon
+    state: pda-blueshield
+
+- type: entity
+  parent: BasePDA
   id: SyndiAgentPDA
   name: syndicate agent PDA
   description: For those days when healing normal syndicates aren't enough, try healing nuclear operatives instead!

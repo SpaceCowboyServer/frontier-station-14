@@ -132,6 +132,15 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBlueshield
+  name: blueshield duffel backpack
+  description: Велика штука для великих речей.
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Duffels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelHydroponics
   name: речова сумка гідропоніки
   description: Велика сумка для зберігання додаткових садових інструментів.
