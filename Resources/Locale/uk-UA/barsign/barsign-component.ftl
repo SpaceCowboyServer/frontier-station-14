@@ -1,6 +1,6 @@
 barsign-component-name = bar sign
 
-# Bar signs prototypes
+## Bar signs prototypes
 
 ## The Harmbaton
 barsign-prototype-name-harmbaton = The Harmbaton
