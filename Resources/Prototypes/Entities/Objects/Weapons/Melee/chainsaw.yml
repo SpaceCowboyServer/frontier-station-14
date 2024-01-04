@@ -48,3 +48,34 @@
   - type: Tag # Frontier
     tags: # Frontier
     - WeaponMelee # Frontier
+
+
+- type: entity
+  name: магічна бензопила
+  parent: Chainsaw
+  id: MagicChainsaw
+  description: ААА ЗАРАЗ Я БУДУ ВАС ВСІХ РІЗАТИ!
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/magic_chainsaw.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Melee/magic_chainsaw.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Slash: 8
+        Blunt: 8
+        Structural: 10
+    soundHit:
+      path: /Audio/Weapons/chainsaw.ogg
+      params:
+        volume: -3
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Slash: 5
+        Blunt: 5
+        Structural: 20

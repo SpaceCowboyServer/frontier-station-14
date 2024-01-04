@@ -186,3 +186,6 @@ ghost-role-information-Death-Squad-description = One of Nanotrasen's top interna
 ghost-role-information-Cak-name = Cak
 ghost-role-information-Cak-description = You are the chef's favorite child. You're a living cake cat.  
 ghost-role-information-Cak-rules = You are a living edible sweet cat. Your task is to find your place in this world where everything wants to eat you.
+
+ghost-role-information-closet-mage-name = Чаклун у шафі
+ghost-role-information-closet-mage-description = Як довго я спав? Час привнести хаос, аби розвеселити себе на цій нудній станцію.

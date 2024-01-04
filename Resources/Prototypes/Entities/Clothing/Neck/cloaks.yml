@@ -170,3 +170,17 @@
     sprite: Clothing/Neck/Cloaks/void.rsi
   - type: TypingIndicatorClothing
     proto: alien
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakVoidMagic
+  name: Магічний плащ пустоти
+  description: Плащ пустоти. Для тих хто доєднався темної сторони сили
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/void.rsi
+  - type: TypingIndicatorClothing
+    proto: alien
+  - type: StealthClothing
+    visibility: 1.0
+    toggleAction: ActionTogglePhaseCloak

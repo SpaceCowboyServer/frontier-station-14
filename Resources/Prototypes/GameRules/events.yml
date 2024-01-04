@@ -95,6 +95,20 @@
 
 - type: entity
   parent: BaseGameRule
+  id: MageSpawn
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 10
+    duration: 1
+    earliestStart: 10
+    minimumPlayers: 10
+    reoccurrenceDelay: 60
+  - type: RandomEntityStorageSpawnRule
+    prototype: MobMageCloset
+
+- type: entity
+  parent: BaseGameRule
   id: RevenantSpawn
   noSpawn: true
   components:
@@ -102,7 +116,7 @@
     weight: 7.5
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 10
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -455,20 +469,20 @@
     - id: MobMothroach
       prob: 0.05
 
-- type: entity
-  id: ImmovableRodSpawn
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-immovable-rod-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    weight: 1
-    duration: 1
-    earliestStart: 45
-    minimumPlayers: 15
-  - type: ImmovableRodRule
+# - type: entity
+#   id: ImmovableRodSpawn
+#   parent: BaseGameRule
+#   noSpawn: true
+#   components:
+#   - type: StationEvent
+#     startAnnouncement: station-event-immovable-rod-start-announcement
+#     startAudio:
+#       path: /Audio/Announcements/attention.ogg
+#     weight: 1
+#     duration: 1
+#     earliestStart: 45
+#     minimumPlayers: 15
+#   - type: ImmovableRodRule
 
 - type: entity
   noSpawn: true
