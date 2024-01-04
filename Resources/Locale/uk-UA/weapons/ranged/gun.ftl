@@ -30,12 +30,12 @@ gun-battery-examine = У нього достатньо заряду на [color=
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = Затвор не взведено
 gun-chamber-bolt = Затвор [color={$color}]{$bolt}[/color].
-gun-chamber-bolt-closed = Закритий затвор
-gun-chamber-bolt-opened = Відкрити затвор
+gun-chamber-bolt-closed = Затвор закрито
+gun-chamber-bolt-opened = Затвор відкрито
 gun-chamber-bolt-close = Закрити затвор
 gun-chamber-bolt-open = Відкрити затвор
-gun-chamber-bolt-closed-state = відкрито
-gun-chamber-bolt-open-state = закрито
+gun-chamber-bolt-closed-state = відкрити
+gun-chamber-bolt-open-state = закрити
 gun-chamber-rack = Взвезти
 
 # MagazineAmmoProvider
@@ -43,8 +43,8 @@ gun-magazine-examine = Залишилось [color={$color}]{$count}[/color] п�
 
 # RevolverAmmoProvider
 gun-revolver-empty = Розрядити револьвер
-gun-revolver-full = Револьвер заповнений
+gun-revolver-full = Револьвер повний
 gun-revolver-insert = Вставити
 gun-revolver-spin = Прокрутити револьвер
-gun-revolver-spun = Spun
-gun-speedloader-empty = Speedloader порожній
+gun-revolver-spun = Прокручено
+gun-speedloader-empty = Барабан порожній
