@@ -144,6 +144,6 @@
       manaCost: 40
       speech: action-speech-spell-smite
       maxElectrocuteDamage: 10
-      range: 4
+      # range: 4
       maxElectrocutionRange: 4
       maxElectrocuteDuration: 2
