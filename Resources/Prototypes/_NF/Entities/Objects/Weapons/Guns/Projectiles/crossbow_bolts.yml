@@ -35,6 +35,38 @@
       types:
         Piercing: 35
 
+- type: entity
+  parent: CrossbowBoltPlasmaGlassShard
+  id: MagicCrossbowBoltFire
+  name: вогняний магічний болт
+  description: Наносить шкоду та підпалює
+  components:
+  - type: IgniteOnCollide
+    fireStacks: 4
+
+- type: entity
+  parent: CrossbowBoltGlassShard
+  id: MagicCrossbowBoltStun
+  name: магічний болт
+  description: Наносить шкоду та станить
+  components:
+  - type: StunOnCollide
+    stunAmount: 5
+    knockdownAmount: 5
+
+- type: entity
+  parent: CrossbowBoltUraniumGlassShard
+  id: MagicCrossbowBoltPoison
+  name: магічний болт
+  description: Наносить шкоду та отруює
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+        Poison: 10
+        Radiation: 5
+
 # Craftable variations
 - type: entity
   parent: CrossbowBolt

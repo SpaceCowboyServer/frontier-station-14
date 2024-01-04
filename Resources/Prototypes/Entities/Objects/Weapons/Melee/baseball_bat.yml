@@ -37,3 +37,24 @@
     tags:
     - BaseballBat
     - WeaponMelee # Frontier
+
+
+- type: entity
+  name: магічна бита
+  parent: BaseBallBat
+  id: WeaponMeleeMagicBat
+  description: Вибийте з них всю дурь.
+  # suffix: Do not map
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/magic_bat.rsi
+    state: icon
+  - type: MeleeThrowOnHit
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 15
+    soundHit:
+      path: /Audio/Weapons/bat_bonk.ogg
+      params:
+        volume: -3

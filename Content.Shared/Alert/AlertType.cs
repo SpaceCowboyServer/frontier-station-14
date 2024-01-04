@@ -31,6 +31,7 @@ namespace Content.Shared.Alert
         Parched,
         Stamina,
         ShadowkinPower,
+        MageMana,
         Pulled,
         Pulling,
         Magboots,
