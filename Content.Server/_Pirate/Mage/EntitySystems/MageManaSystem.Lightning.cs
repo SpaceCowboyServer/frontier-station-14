@@ -81,7 +81,7 @@ public sealed class MageLightningSystem : EntitySystem
         var coords = transform.Coordinates;
 
 
-        var range = args.Range;
+        var range = args.MaxElectrocutionRange;
         int i = 0;
         // var xform = Transform(uid);
         foreach (var (ent, component) in _lookup.GetEntitiesInRange<MobStateComponent>(coords, range))

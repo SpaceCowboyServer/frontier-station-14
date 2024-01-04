@@ -12,7 +12,7 @@ public sealed partial class MageLightningSpellEvent: InstantActionEvent, ISpeakS
     /// 4f is the default
     /// </summary>
     [DataField("maxElectrocutionRange")]
-    public float Range = 4f;
+    public float MaxElectrocutionRange = 4f;
 
     /// <summary>
     /// The maximum amount of damage the electrocution can do

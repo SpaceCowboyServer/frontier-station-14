@@ -10,7 +10,7 @@ public sealed partial class MageLightningComponent : Component
     /// scales with stability
     /// </summary>
     [DataField("maxElectrocutionRange"), ViewVariables(VVAccess.ReadWrite)]
-    public float MaxElectrocuteRange = 7f;
+    public float MaxElectrocuteRange = 4f;
 
     /// <summary>
     /// The maximum amount of damage the electrocution can do
