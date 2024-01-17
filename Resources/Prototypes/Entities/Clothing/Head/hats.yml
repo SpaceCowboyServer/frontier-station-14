@@ -43,6 +43,20 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: blueshield beret
+  description: Стоїть на захисті твого ніжного волосся.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatCasa
   name: сугегаса
   description: Капелюх у формі конуса

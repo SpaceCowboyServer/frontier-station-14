@@ -43,6 +43,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - Blueshield
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -81,6 +82,7 @@
   color: "#DE3A3A"
   roles:
   - HeadOfSecurity
+  - Blueshield
   - SecurityCadet
   - SecurityOfficer
   - SeniorOfficer
